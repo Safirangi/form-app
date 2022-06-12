@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+:root {
+  --font: "Work Sans", sans-serif;
+  --primary: #2a9d8f;
+  --secondary: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--font);
+  /*border: 1px solid red;*/
+}
+
+header {
+  padding: 1em auto;
+  margin: 4% auto;
+  text-align: center;
+  background-color: #031b3f;
+  color: #fff;
+}
+
+.student-form {
+  margin: 4% auto 0;
+  padding: 2% 0;
+  display: flex;
+  justify-content: center;
+
+  border-radius: 0.4em;
+}
+
+form {
+  margin: 0 auto;
+  width: 20%;
+}
+
+input {
+  padding: 0.5%;
+  border-radius: 0.2em;
+  border: 0.5px solid #000;
+}
+
+button {
+  padding: 1em 3em;
+  font-style: bold;
+  border-radius: 0.4em;
+  margin: 4% auto;
+  display: flex;
+  background-color: #031b3f;
+  color: #fff;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #031b2a;
+}
