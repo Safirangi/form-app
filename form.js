@@ -15,22 +15,10 @@ function submitForm() {
     alert("Name cannot be blank");
     return false;
   }
-
-  //semester value cannot be less than 1 and greater than 8
-  else if (semester <= 0 || semester >= 9) {
-    alert("Enter a valid semester between 1 to 8");
-    return false;
-  }
-
+  
   //Checks the value of the lastname for blank, if blank an alert message pops up.
   else if (lastName == null || lastName == "") {
     alert("Name cannot be blank");
-    return false;
-  }
-
-  //department validation, value should not be blank
-  else if (dept == null || dept == "") {
-    alert("Select a Department");
     return false;
   }
 
@@ -73,6 +61,18 @@ function submitForm() {
     alert(
       "Password should consist of atleast one special character, lowercase & uppercase character and number"
     );
+    return false;
+  }
+  
+  //semester value cannot be less than 1 and greater than 8
+  else if (semester <= 0 || semester >= 9) {
+    alert("Enter a valid semester between 1 to 8");
+    return false;
+  }
+
+  //department validation, value should not be blank
+  else if (dept == null || dept == "") {
+    alert("Select a Department");
     return false;
   }
 }
