@@ -19,3 +19,15 @@ A web app form that is connected to a database through a server.
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
   
 </div>
+
+<div align="justify">
+  
+<h2 align="center">Project</h2>
+  
+The student submission form consists of 6 entries: `firstName`, `lastName`, `email`, `password`, `semester`, and `dept`, where `firstName`, `lastName`, `email` and `password` are string entries, `semester` is an integer entry, and the `dept` is the department list in the form of string entry.
+  
+The form is JavaScript validated at the client-side.
+  
+On submission, the form is submitted to [connect.php](https://github.com/Safirangi/form-app/blob/main/connect.php). This is connected to `localhost` server on `phpmyadmin`.
+  
+</div>
