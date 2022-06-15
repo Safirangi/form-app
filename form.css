@@ -2,8 +2,10 @@
 
 :root {
   --font: "Work Sans", sans-serif;
-  --primary: #2a9d8f;
+  --primary: #031b3f;
   --secondary: #fff;
+  --tertiary: #000;
+  --hover-color: #031b2a;
 }
 
 * {
@@ -19,8 +21,8 @@ header {
   padding: 1em auto;
   margin: 4% auto;
   text-align: center;
-  background-color: #031b3f;
-  color: #fff;
+  background-color: var(--primary);
+  color: var(--secondary);
 }
 
 .student-form {
@@ -40,7 +42,7 @@ form {
 input {
   padding: 0.5%;
   border-radius: 0.2em;
-  border: 0.5px solid #000;
+  border: 0.5px solid var(--tertiary);
 }
 
 button {
@@ -49,21 +51,21 @@ button {
   border-radius: 0.4em;
   margin: 4% auto;
   display: flex;
-  background-color: #031b3f;
-  color: #fff;
+  background-color: var(--primary);
+  color: var(--secondary);
   border: none;
 }
 
 button:hover {
   cursor: pointer;
-  background-color: #031b2a;
+  background-color: var(--hover-color);
 }
 
 footer {
   bottom: 0;
   position: fixed;
-  color: #fff;
-  background-color: #031b3f;
+  color: var(--secondary);
+  background-color: var(--primary);
   width: 100%;
   height: 5%;
   display: flex;
