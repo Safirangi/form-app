@@ -30,4 +30,11 @@ The form is JavaScript validated at the client-side.
   
 On submission, the form is submitted to [connect.php](https://github.com/Safirangi/form-app/blob/main/connect.php). This is connected to `localhost` server on `phpmyadmin`.
   
+<h2 align="center">Database</h2>
+  
+The form is connected to a database called *test1*, consisted of columns: *id*, *firstName*, *lastName*, *email*, *password*, *semester* and *dept*. The *id* column 
+is a *primary key* and is auto incremented.
+
+  
+  
 </div>
