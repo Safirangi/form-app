@@ -33,7 +33,13 @@ On submission, the form is submitted to [form.php](https://github.com/Safirangi/
 <h2 align="center">Database</h2>
   
 The form is connected to a database called *student-details*, consisted of columns: *firstName*, *lastName*, *email*, *password*, *semester* and *dept. The table name is *details*.
+ 
+</div>
 
-  
-  
+<div align="center">
+
+<h2>Database & Tables</h2>
+
+![image](https://user-images.githubusercontent.com/83855905/179014223-7dc49807-46ab-4485-8476-877148978f2a.png)
+
 </div>
