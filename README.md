@@ -28,12 +28,11 @@ The student submission form consists of 6 entries: `firstName`, `lastName`, `ema
   
 The form is JavaScript validated at the client-side.
   
-On submission, the form is submitted to [connect.php](https://github.com/Safirangi/form-app/blob/main/connect.php). This is connected to `localhost` server on `phpmyadmin`.
+On submission, the form is submitted to [form.php](https://github.com/Safirangi/form-app/blob/main/form.php). This is connected to `localhost` server on `phpmyadmin`.
   
 <h2 align="center">Database</h2>
   
-The form is connected to a database called *test1*, consisted of columns: *id*, *firstName*, *lastName*, *email*, *password*, *semester* and *dept*. The *id* column 
-is a *primary key* and is auto incremented.
+The form is connected to a database called *student-details*, consisted of columns: *firstName*, *lastName*, *email*, *password*, *semester* and *dept. The table name is *details*.
 
   
   
