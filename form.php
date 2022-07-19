@@ -19,7 +19,7 @@
 // servername -> localhost
 // username -> root
 // password -> empty
-// database name -> student-details
+// database name -> 'student-details'
 // port number -> 3307
 // table name -> details
 $conn = new mysqli('localhost', 'root', 'password', 'student-details', 3307);
@@ -38,14 +38,15 @@ if($conn === false){
     $dept = $_POST['dept'];
 
 //Insert query execution
-//Table name is details
+//Table name is 'details'
 $sql = "INSERT INTO details VALUES ('$firstName', '$lastName','$email','$password','$semester', '$dept')";
 
 if(mysqli_query($conn, $sql)){
     echo "<h3>data stored in a database successfully."
         . " Please browse your localhost php my admin"
         . " to view the updated data</h3>";
-
+	
+//Prints the data on the webpage
     echo nl2br("\nFirst Name: $firstName\n Last Name: $lastName\n "
         . "Email: $email\n Semester: $semester\n Department: $dept\n");
 } else{
